@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-EDGE">
+    <meta NAME= "VIEWPORT" CONTENT = "WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">  
+    <title>Realizar Pedido</title>
+</head>
+
+
+<boddy>
+    <h1>Aquí se realiza el pedido. </h1>
+    <form action = "Pedido.js">
+        <label for = "Nombre"> Ingresa el nombre de quien recibirá el pedido:</label> <br>
+        <input type = "text" id = "nombre" LugarHolder="Nombre">
+    <br><br>
+        <label for="tel1">Ingresa no. Teléfono máx. 10 carcteres</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10">
+    <br><br>
+
+        <p>¿Entrega en el local o a domicilio:</p>
+        <input type ="radio" id="Local" name ="Local o LLevar" value="Local">
+        <label for="Local">Local</label> <br>
+        <input type = "radio" id="Llevar" name="Local o LLevar" value="Llevar">
+        <label for ="Llevar">Llevar</label>
+    <br><br>
+        <label for = "Caja"> Caja:</label> <br>
+        <input type = "number" id = "Caja" LugarHolder2="4">
+    <br><br>
+
+        <p>¿Pastel de qué?</p>
+        <input type ="checkbox" id="Local" name ="Pastel" value="Local">
+        <label for="Local">Pastel Arándanos</label> <br>
+        <input type = "checkbox" id="Llevar" name="Local o LLevar" value="Llevar">
+        <label for ="Llevar">Pastel 3 leches</label>
+        <input type ="checkbox" id="Local" name ="Pastel" value="Local">
+        <label for="Local">Pastel Chocolate</label> <br>
+        <input type = "checkbox" id="Llevar" name="Local o LLevar" value="Llevar">
+        <label for ="Llevar">Pastel Vainilla</label>
+        <input type = "checkbox" id="Llevar" name="Local o LLevar" value="Llevar">
+        <label for ="Llevar">Pastel Pastel Nuez Y 3 Leches</label>
+    <br><br>
+
+        <p>TOPPINGS</p>
+        <input type="checkbox" id="Toping1" name="Toping1" value="Toping1" >
+        <label for="Toping1">Nuez</label><br>
+        <input type="checkbox" id="Toping2" name="Toping2" value="Toping2">
+        <label for="Toping2">Almendra</label><br>
+        <input type="checkbox" id="Toping3" name="Toping3" value="Toping3">
+        <label for="Toping3">Chispas de Chocolate</label><br>
+        <input type="checkbox" id="Toping4" name="Toping4" value="Toping4">
+        <label for="Toping4">Chispas de Colores</label><br>
+        <input type="checkbox" id="Toping5" name="Toping5" value="Toping5">
+        <label for="Toping3">Cerezas</label><br>
+
+        <p>¿Alguna Bebida?</p>
+        <select NAME="REFRESCO" ID="REFRESCO"> 
+            <option VALUE="BBPP">Battler battle Pink Princess</option>
+            <option VALUE="Royal Mosttler Reinal">Royal Mosttler Reinal</option>
+            <option VALUE="Specialy u">Specialy u</option>
+            <option VALUE="NeickerBlasMattle">NeickerBlasMattle</option>
+            <option VALUE="Dali cream u r">Dali cream u r</option>
+        </select>
+
+        <BR><BR>
+            <input TYPE="RESET">
+            <input TYPE="SUBMIT">
+        <BR><BR>
+    </form>
+
+
+
+</boddy>
+</html>
