@@ -1,4 +1,13 @@
 *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+*{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,9 +42,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: rgb(252, 252, 252);
-}
+
 
 p{
     color: red;
@@ -68,3 +75,35 @@ p.izquierda{
 h1, h2, p{
     font-weight: bold;
 }
+
+html {
+    box-sizing: border-box;
+    --Color-principal: #2848c6;
+    --Color-Titulos: #1f3e72;
+    --Color-Textos: #6d7b93;
+    --Amarillo: #ffd012;
+    --Fuente-titulos: "Cabin", sans-serif;
+    --Ancho-titulos: 800;
+    --Fuente-Textos: "Lato", sans-serif;
+    --Ancho-Textos-Planos: 800;
+    --Ancho-Textos-Negrita: 800;
+  }
+
+
+nav .special {
+    color: whitesmoke;
+    display: inline-block;
+    background-color: var(--Color-principal);
+    padding: 15px;
+    border-radius: 10%;
+  }
+  nav .special2 {
+    color: red;
+    display: inline-block;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+
