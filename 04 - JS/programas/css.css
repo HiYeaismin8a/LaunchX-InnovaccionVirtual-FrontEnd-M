@@ -1,0 +1,40 @@
+.eye{
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 275px;
+    left : 670px;
+    z-index: 1;
+  }
+  
+  .heaven
+  {
+    position:absolute;
+    height:700px;
+    width:1300px;
+    z-index: -1;
+  }
+
+  .posicionCajaDeTexto{
+    position:absolute;
+    top: 727px;
+    left : 235px;
+    
+    
+  }
+
+  .heaven_Boton
+  {
+    position:absolute;
+    /*height:37px;
+    width:100px;*/
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: 325px;
+    left : 235px;
+    z-index: 1;
+    border-radius: 70%;
+    border-color: black;
+    background-color: red;
+  }
